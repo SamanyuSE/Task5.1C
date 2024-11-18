@@ -1,0 +1,85 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bf65cd; 
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px; /* Added max-width for better readability */
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+/* Form title styling */
+.form-title {
+  font-size: 2rem; /* Larger title */
+  margin-bottom: 20px;
+  color: #673ab7; /* Purple color for the form title */
+}
+
+/* Form group margin */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Post type radio buttons */
+.post-type {
+  margin-bottom: 20px;
+}
+
+.post-options {
+  display: flex;
+  align-items: center;
+}
+
+.post-options label {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+.post-options input[type="radio"] {
+  margin-right: 10px;
+}
+
+
+/* Input and textarea styling */
+input, textarea {
+  padding: 12px;
+  margin-top: 5px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s;
+}
+
+input:focus, textarea:focus {
+  border-color: #673ab7;
+  outline: none;
+}
+
+/* Button styling */
+button {
+  padding: 12px;
+  background-color: #673ab7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #5e35b1;
+}
